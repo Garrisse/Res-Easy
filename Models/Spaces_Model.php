@@ -28,7 +28,7 @@
                         type        ENUM('study_room','cinema','basement','kitchen','gym','library','rooftop', 'other') NOT NULL,
                         capacity    INT NOT NULL DEFAULT 1,
                         description TEXT,
-                        is_bookable BOOLEAN DEFAULT TRUE,
+                        is_bookable TINYINT(1) DEFAULT 1,
                         floor       VARCHAR(10)
                     );
                 ");
