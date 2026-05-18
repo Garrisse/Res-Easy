@@ -1,0 +1,3 @@
+# To not upload the "config.local.php" file in GitHub due to having sensitive information that cannot be shared with other developers (users and passwords of the Azure database)
+config.local.php
+ca.pem
